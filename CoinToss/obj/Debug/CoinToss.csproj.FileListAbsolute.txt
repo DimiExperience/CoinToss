@@ -1,0 +1,6 @@
+C:\Users\Dimi\Documents\Visual Studio 2015\Projects\CoinToss\CoinToss\bin\Debug\CoinToss.exe.config
+C:\Users\Dimi\Documents\Visual Studio 2015\Projects\CoinToss\CoinToss\bin\Debug\CoinToss.exe
+C:\Users\Dimi\Documents\Visual Studio 2015\Projects\CoinToss\CoinToss\bin\Debug\CoinToss.pdb
+C:\Users\Dimi\Documents\Visual Studio 2015\Projects\CoinToss\CoinToss\obj\Debug\CoinToss.csprojResolveAssemblyReference.cache
+C:\Users\Dimi\Documents\Visual Studio 2015\Projects\CoinToss\CoinToss\obj\Debug\CoinToss.exe
+C:\Users\Dimi\Documents\Visual Studio 2015\Projects\CoinToss\CoinToss\obj\Debug\CoinToss.pdb
