@@ -47,7 +47,7 @@ namespace CoinToss
                 );
             System.IO.File.WriteAllText(@"C:\Users\Dimi\Documents\myCSV.csv", csv);
         }
-
+        //evo ga cointoss!:)
         public enum CoinSide
         {
             Heads = 0,
