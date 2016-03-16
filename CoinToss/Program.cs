@@ -27,7 +27,7 @@ namespace CoinToss
                     numOfHeads += number;
                 }
                 //dodati u dictionary
-                if (dicVerovatnoca.ContainsKey(numOfHeads))
+                if (dicVerovatnoca.ContainsKey(numOfHeads))//da li si na ovo mislio da mi treba TryGetValue, da bih lepse resio update? ako jesi nisam uspeo da nadjem kako
                 {
                     dicVerovatnoca[numOfHeads] += 1;
                 }
@@ -39,19 +39,18 @@ namespace CoinToss
                 //clear numOfHeads za sledeci toss
                 numOfHeads = 0;
             }
-            dicVerovatnoca.ToList().ForEach(x => Console.WriteLine("{0} : {1}", x.Key, x.Value));
+            foreach (var key in dicVerovatnoca.Keys)
+            {
+                Console.WriteLine("{0} : {1}", key, dicVerovatnoca[key]);//definitivno lepse resenje, nisam znao kako da ih ispisem, ali nije mi ovo palo na pamet, tako da cool!
+            }
+
+
 
             string csv = string.Join(
                 Environment.NewLine,
                 dicVerovatnoca.Select(d => d.Key + ";" + d.Value + ";")
                 );
             System.IO.File.WriteAllText(@"C:\Users\Dimi\Documents\myCSV.csv", csv);
-        }
-        //evo ga cointoss!:)
-        public enum CoinSide
-        {
-            Heads = 0,
-            Tails
-        }
+        } //evo ga cointoss!:)
     }
 }
